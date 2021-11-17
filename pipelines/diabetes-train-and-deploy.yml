@@ -24,7 +24,7 @@ steps:
       sudo add-apt-repository https://packages.microsoft.com/repos/azure-cli
       sudo apt update
       apt-cache policy azure-cli
-      sudo apt install -y --allow-downgrades azure-cli=2.29.2
+      sudo apt install -y --allow-downgrades azure-cli=2.29.2-1~bionic
 
 - task: AzureCLI@2
   displayName: 'Install AML CLI'
